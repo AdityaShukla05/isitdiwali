@@ -1,12 +1,14 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Is It Diwali</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'isdiwali.css' %}">
 </head>
 <body>
     <!--TAGS in django module which helps to insert the pyhton code in a html file -->
     <!-- And that code gets evaluated on the server and not on the browser -->
-    {% if day == 1 and month == 1%}
+    {% if day == 4 and month == 11 %}
         <h1>Yes</h1>
     {% else %}
         <h1>No</h1>

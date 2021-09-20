@@ -1,0 +1,6 @@
+body {
+    background-color: aqua;
+    font-size: larger;
+    text-align: center;
+    overflow-x: scroll;
+}
